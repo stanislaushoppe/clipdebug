@@ -19,17 +19,14 @@ Using this tool the clipboard gets monitored, and if there is some clipboard cha
 # clone or download the project using git clone
 cd clipdebug
 
-# Dependencies installieren und kompilieren
+# build the application
 cargo build --release
 ```
 
 ## Usage
 
 ```bash
-# Debug-Version starten
-cargo run
-
-# Oder die kompilierte Binary verwenden
+#run the compiled version
 ./target/release/clipdebug
 ```
 
