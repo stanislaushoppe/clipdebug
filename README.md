@@ -28,6 +28,9 @@ cargo build --release
 ```bash
 #run the compiled version
 ./target/release/clipdebug
+# run the compiled version with debug information, where you can see
+# when the clipboard from X is changed and what is in the clipboard
+clipboard -debug
 ```
 
 ## tested on
